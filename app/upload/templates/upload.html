@@ -1,5 +1,6 @@
 {% block content %}
 
+  Hola amigos
   <form action="{% url "upload" %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <input type="file" name="image_file">
